@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Filip Mathsson -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+
+<canvas id="canvas" width="100%" height="100%"></canvas>
+
+<!--logo -->
+    <div class="logo">
+<img id ="logo" src="Tomte.png" alt="logo">
+    </div>
+    <div class="banner">
+<img  id="banner" src="SantaSlide.gif" alt="jultomteAnimation">
+    </div>
+
+    <!-- count down -->
+    <div class="count">
+      <div>
+        <h2 id ="time"></h2>
+      </div>
+    </div>
+
+<!-- vanlig slideshow -->
+<div class="slideshow">
+    <div>
+      <img class="mySlides" src="tree.jpg" alt="julbild">
+    </div>
+    <div>
+       <img class="mySlides" src="merryxmas.jpg" alt="julbild">
+    </div>
+    <div>
+      <img class="mySlides" src="snowman.jpg" alt="julbild">
+    </div>
+    <div>
+      <img class="mySlides" src="glowy.jpg" alt="julbild">
+    </div>
+ </div>
+ <!-- Menu -->
+ <div class="Menu">
+   <span> <b>Menu</b> </span>
+   <div class="dropdown">
+     <a class="link" href="https://www.clasohlson.com/se/product/onSale" style="color:green">ClasOhlson</a>
+     <hr>
+     <a class="link" href="https://www.webhallen.com/se/campaign/7103-Webhallens-Julkalender-2018" style="color:green">Webhallen</a>
+     <hr>
+     <a class="link" href="https://www.elgiganten.se/cms/perfekta-julklappar/hitta-den-perfekta-julklappen-pa-elgiganten/" style="color:green">Elgiganten</a>
+     <hr>
+   </div>
+ </div>
+<!-- Yourube slide show -->
+   <div class="julsånger">
+      <div class="youtubevid">
+        <iframe class="myvid" width="100%" height="100%" src="https://www.youtube.com/embed/5VO3w8na3CA" frameborder="0" allowfullscreen></iframe>
+        <iframe class="myvid" width="100%" height="100%" src="https://www.youtube.com/embed/vAwDyMz2j5I" frameborder="0" allowfullscreen></iframe>
+        <iframe class="myvid" width="100%" height="100%" src="https://www.youtube.com/embed/R1GCqvXR3_g" frameborder="0" allowfullscreen></iframe>
+        <iframe class="myvid" width="100%" height="100%" src="https://www.youtube.com/embed/YboQCegPfNc" frameborder="0" allowfullscreen></iframe>
+        <button class="button" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="button2" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+  </body>
+</html>

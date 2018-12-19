@@ -1,0 +1,159 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* Filip Mathsson */
+/* loggan*/
+.logo{
+  height: 15vh;
+  width: 7%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 1%;
+  position:relative;
+}
+#logo{
+  height: 120%;
+  width: 120%
+
+}
+/* Egen gjord gif */
+.banner{
+  border: 1px solid black;
+  height: 15vh;
+  width: 50%;
+  float: left;
+  margin-left: 8%;
+  margin-top: 1%;
+  position:relative;
+}
+#banner{
+  width: 100%;
+  height: 100%;
+}
+
+/* Nedräkning och costum font family */
+.count{
+    height: 15%;
+    width: 26%;
+    margin-top: 1%;
+    margin-left: 2%;
+    float:left;
+    position:relative;
+}
+
+@font-face {
+font-family: "Christmas Cookies";
+src: url("fonts/Christmas Cookies.woff");
+
+}
+
+#time{
+  margin-top: 3.5%;
+  margin-left: 19%;
+  color: green;
+font-family:'Christmas Cookies', arial;
+  font-size: 50px;
+  position: relative;
+}
+
+/* Stjärnfall canvas bakgrundsbild */
+canvas{
+    display: block;
+}
+#canvas{
+  background-image: url("stars.png");
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+
+}
+/* Bild Slideshow css */
+.slideshow{
+border: solid 1px green;
+  float:left;
+  width: 40%;
+  height: 68vh;
+  margin-left: 5%;
+  margin-top: 5%;
+  position:relative;
+}
+
+.mySlides{
+  width: 100%;
+  height: 68vh;
+}
+
+/* Menu */
+
+.Menu{
+  position: relative;
+  color: green;
+  font-family:'Christmas Cookies', arial;
+  text-align: center;
+  border: solid 1px green;
+  font-size: 40px;
+  width: 7%;
+  height: 5vh;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 5%;
+}
+.dropdown{
+  font-family: serif;
+  color: green;
+  display: none;
+  position: absolute;
+  background-color: black;
+  font-size: 20px;
+  border: solid 1px green;
+  width: 100%;
+}
+.Menu:hover .dropdown{
+  display: block;
+}
+.link{
+  text-decoration: none;
+}
+hr{
+  border-bottom: solid 1px green;
+}
+
+/* Youtube slide show css */
+
+.julsånger{
+  float:left;
+  width: 40%;
+  height: 68vh;
+  margin-top: 5%;
+  position:relative;
+}
+
+.julknapp{
+  position: relative;
+  width: 37.5%;
+  height: 4vh;
+  margin-left: 56.5%;
+  float: left;
+
+}
+.button{
+  height: 3.2vh;
+  width: 10.5%;
+  float: left;
+background-image:url(beutiful.png);
+border: none;
+}
+.button2{
+  height: 3.2vh;
+  width: 10.5%;
+  float: right;
+  border: none;
+  background-image: url(beutiful.png);
+}
+.youtubevid{
+  border: solid 1px green;
+  height: 95.5%;
+  width: 100%;
+}
